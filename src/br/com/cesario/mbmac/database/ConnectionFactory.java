@@ -12,9 +12,9 @@ public class ConnectionFactory {
 
 	public Connection getConnection() {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			return DriverManager.getConnection("jdbc:mysql://localhost:3306/mbma",
-					"root", "");
+					"root", "root");
 		} catch (SQLException e) {
 			throw new RuntimeException (e);
 		} catch (ClassNotFoundException e){

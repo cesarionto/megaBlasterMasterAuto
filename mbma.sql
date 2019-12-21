@@ -8,7 +8,7 @@ create table clientes(
 	rg varchar(100),
 	data_nascimento date,
 	nomeMae varchar(100),
-	telefone_celularhttps://open.spotify.com/track/7wPvaXpfsm4neRJCKX7i7k?si=bVMtoQZHTDW-hG_VNSd8VA varchar(100),
+	telefone_celular varchar(100),
 	email varchar(100),
 	estado varchar(100),
 	cidade varchar(100),
